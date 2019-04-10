@@ -11,6 +11,7 @@ import Headline from './components/Headline'
 import 'animate.css/animate.min.css'
 import Text3 from './components/Text3'
 import Text2 from './components/Text2'
+import Footer from './components/Footer'
 
 class App extends Component {
   render () {
@@ -24,7 +25,7 @@ class App extends Component {
         <Text2 />
         <Text3 />
         <Form />
-        <div className='footer' />
+        <Footer />
       </div>
     )
   }
