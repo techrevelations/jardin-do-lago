@@ -6,8 +6,8 @@ export default class Text2 extends Component {
     return (
       <div className='text2'>
         <Reveal effect='fadeInUp'>
-          <div className='title1'>O JARDIM DO LAGO JÁ É UMA REALIDADE</div>
-          <div className='text1'>
+          <div className='title2'>O JARDIM DO LAGO JÁ É UMA REALIDADE</div>
+          <div className='innertext2'>
             Você já pode aproveitar tudo o que o Jardim do Lago tem de melhor. As casas de 3 quartos ou 4 suítes já
             estão prontas para morar, esperando a sua visita, assim como o clube com 20 mil m2 e todas as suas atrações.
           </div>

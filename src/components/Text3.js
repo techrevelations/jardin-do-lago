@@ -6,12 +6,11 @@ export default class Text3 extends Component {
     return (
       <div className='text3'>
         <Reveal effect='fadeInUp'>
-          <div className='title1'>UM NOVO CONCEITO DE CONDOMÍNIO</div>
-          <div className='text1'>
+          <div className='title3'>CLUBE E LOUNGE</div>
+          <div className='innertext3'>
             Jardim do Lago. Um condomínio planejado para oferecer o máximo em conforto, privacidade, lazer, diversão e
-            segurança. Tudo isso com clube privativo e ainda um projeto de paisagismo sem igual desenvolvido por
-            Fernando Chacel, com trilhas ecológicas, lago, bosques e uma qualidade de vida como nenhum outro lugar de
-            Búzios.
+            segurança. Além de um clube privativo e uma qualidade de vida ímpar. E o melhor é que tudo isso já está
+            pronto.
           </div>
         </Reveal>
       </div>

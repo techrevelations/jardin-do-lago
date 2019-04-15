@@ -1,10 +1,44 @@
 import React, { Component } from 'react'
-
+import Map from './Map'
 export default class Footer extends Component {
+  constructor (props) {
+    super(props)
+    this.titleWasClicked = this.titleWasClicked.bind(this)
+    this.toggleContent = this.toggleContent.bind(this)
+    this.state = { showContent: true }
+  }
+
+  titleWasClicked (event) {
+    event.preventDefault()
+    const { dataCallBack } = this.props
+    if (dataCallBack !== undefined) {
+      dataCallBack('hello world')
+    }
+  }
+
+  toggleContent (event) {
+    event.preventDefault()
+    const { showContent } = this.state
+    this.setState({ showContent: !showContent })
+  }
+
   render () {
+    // const { post } = this.props
+    const { showContent } = this.state
     return (
-      <div>
-        {/* <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d7098.94326104394!2d78.0430654485247!3d27.172909818538997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2s!4v1385710909804" width="600" height="450" frameborder="0" style="border:0"></iframe> */}
+      <div
+        className='satMap'
+        // onMouseLeave={this.toggleContent}
+      >
+        {showContent === true ? (
+          <img onMouseOver={this.toggleContent} id='pic4' src={'/media/img_08.jpg'} alt='please report issue' />
+        ) : (
+          <Map showContent={this.state.showContent} toggleContent={this.toggleContent} />
+        )}
+        {/* {showContent === this.state} */}
+        {/* <button onMouseOver={this.toggleContent}>Toggle Content Display</button> */}
+
+        {/* > */}
       </div>
     )
   }
