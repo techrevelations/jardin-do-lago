@@ -507,6 +507,9 @@
 }
 
 @media (max-width: 1070px) {
+	#fale {
+		margin-top: 50px;
+	}
 	.title2 {
 		margin-left: 2%;
 		margin-right: 2%;
@@ -730,7 +733,7 @@
 	.App {
 		text-align: center;
 		display: grid;
-		grid-template-rows: 70px 300px 280px 300px 280px 300px 280px 250px 350px 220px;
+		grid-template-rows: 70px 300px 280px 300px 280px 300px 280px 250px 350px 280px;
 	}
 	.title1 {
 		margin-top: 15px;
@@ -798,7 +801,7 @@
 	.App {
 		text-align: center;
 		display: grid;
-		grid-template-rows: 70px 270px 260px 270px 260px 270px 260px 260px 350px 220px;
+		grid-template-rows: 70px 270px 260px 270px 260px 270px 260px 260px 350px 260px;
 	}
 	.title1,
 	.title2,
@@ -818,6 +821,9 @@
 		grid-template-rows: 70px 260px 260px 260px 260px 260px 260px 360px 350px 220px;
 	}
 
+	#fale {
+		margin-top: 20px;
+	}
 	.form {
 		grid-template-rows: 10% 90%;
 	}
