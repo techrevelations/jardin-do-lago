@@ -6,7 +6,7 @@ export default class Form extends Component {
     return (
       <div className='form'>
         <Reveal effect='fadeInUp'>
-          {/* <img id='pic6' src={'/media/img_12.jpg'} alt='jardin_do_lago' /> */}
+          <img id='pic6' src={'/media/img_12.jpg'} alt='jardin_do_lago' />
           <div className='title1'>FALE CONOSCO</div>
           <form className='form2'>
             <input className='telephone' type='tel' placeholder='Telefone para retorno:' />
