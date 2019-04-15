@@ -12,7 +12,7 @@ export default class Map extends Component {
     zoom: 16
   }
   render () {
-    const { showContent } = this.props.showContent
+    // const { showContent } = this.props.showContent
     //   const {updateHoverState} = this.props;
     // {onMouseEnter={() => updateHoverState(true)}
     //     onMouseLeave={() => updateHoverState(false)}

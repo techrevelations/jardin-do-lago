@@ -12,6 +12,7 @@ import 'animate.css/animate.min.css'
 import Text3 from './components/Text3'
 import Text2 from './components/Text2'
 import Footer from './components/Footer'
+import Ending from './components/Ending'
 // import Map from './components/Map'
 import { Router } from '@reach/router'
 
@@ -46,6 +47,7 @@ class App extends Component {
         {/* <Map /> */}
         {/* </Router> */}
         {/* <h1 id='demo'>Mouse over me</h1> */}
+        <Ending />
       </div>
     )
   }
